@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Calculator" parent="@android:style/Theme.Light">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    
+    <style name="Calculator.EditText" parent="@android:style/Widget.EditText">
+        <item name="android:textStyle">bold</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+    
+    <style name="Calculator.Button" parent="@android:style/Widget.Button">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+         
+    <style name="Calculator.Button.number">
+        <item name="android:textColor">#2C9928</item>
+    </style>
+    
+    <style name="Calculator.Button.operation">
+        <item name="android:textColor">#2C2980</item>
+    </style>
+    
+    <style name="Calculator.Button.other">
+        <item name="android:textColor">#A82222</item>
+    </style>
+    
+</resources>

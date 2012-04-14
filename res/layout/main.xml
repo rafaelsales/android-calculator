@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/main.etOperation"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" 
+        android:focusable="false"
+		style="@style/Calculator.EditText"/>
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:stretchColumns="0,1,2,3"
+        android:id="@+id/main.tbButtons">
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/main.bt7"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="7"
+                style="@style/Calculator.Button.number"/>
+
+            <Button
+                android:id="@+id/main.bt8"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="8"
+                style="@style/Calculator.Button.number"/>
+
+            <Button
+                android:id="@+id/main.bt9"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="9" 
+                style="@style/Calculator.Button.number"/>
+
+            <Button
+                android:id="@+id/main.btDivision"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="/"
+                style="@style/Calculator.Button.operation"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/main.bt4"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="4" 
+                style="@style/Calculator.Button.number"/>
+
+            <Button
+                android:id="@+id/main.bt5"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="5" 
+                style="@style/Calculator.Button.number"/>
+
+            <Button
+                android:id="@+id/main.bt6"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="6" 
+                style="@style/Calculator.Button.number"/>
+
+            <Button
+                android:id="@+id/main.btMultiplication"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="*" 
+                style="@style/Calculator.Button.operation"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/main.bt1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="1" 
+                style="@style/Calculator.Button.number"/>
+
+            <Button
+                android:id="@+id/main.bt2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="2" 
+                style="@style/Calculator.Button.number"/>
+
+            <Button
+                android:id="@+id/main.bt3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="3" 
+                style="@style/Calculator.Button.number"/>
+
+            <Button
+                android:id="@+id/main.btSubtraction"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="-" 
+                style="@style/Calculator.Button.operation"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/main.btClear"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="C" 
+                style="@style/Calculator.Button.other"/>
+
+            <Button
+                android:id="@+id/main.bt0"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="0" 
+                style="@style/Calculator.Button.number"/>
+
+            <Button
+                android:id="@+id/main.btResult"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="=" 
+                style="@style/Calculator.Button.operation"/>
+
+            <Button
+                android:id="@+id/main.btAddition"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="+" 
+                style="@style/Calculator.Button.operation"/>
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
